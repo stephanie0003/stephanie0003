@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HEXA CONNECTION</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-3" style="display: flex; align-items: center;">
+        <img src="img/LH.png" alt="Logo" style="height: 90px; width: auto; margin-right: 8px;">
+        <span class="brand">HEXA CONNECTION</span>
+    </a>
+    
+      <button class="navbar-menu-mobile open is-size-3 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu"></i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="#top" id="inicio" class="navbar-a navbar-link-active">Inicio</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#about" id="acercaDe" class="navbar-a">Nosotros</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#section2" id="section" class="navbar-a">objetivos</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#mision y vision" id="section" class="navbar-a">Mision y Vision</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#servicios" id="section" class="navbar-a">Servicios</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#contacto" id="form" class="navbar-a">Contactos</a>
+        </li>
+      </ul>
+  
+  </nav>
+  <!-- Sección del carrusel -->
+
+  <div class="section-body" id="top">
+  <div class="slide-contenedor" >
+      
+    <div class="miSlider fade">
+      <div class="slider-body">
+          <h2 class="is-size-3-mobile has-text-weight-bold slider-title"></h2>
+          <p class="description-slider is-size-7-mobile"></p>
+        </div>
+      <img src="img/Equipo.jpeg" alt="">
+  </div>
+      <div class="miSlider fade">
+        <div class="slider-body">
+            <h2 class="is-size-3-mobile has-text-weight-bold slider-title"></h2>
+            <p class="description-slider is-size-7-mobile"></p>
+          </div>
+        <img src="img/prueba3.png" alt="">
+    </div>
+     <!-- <div class="miSlider fade">
+          <div class="slider-body">
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title"></h2>
+              <p class="description-slider is-size-7-mobile"></p>
+            </div>
+          <img src="img/3he.jpg" alt="">
+      </div> -->
+      <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      <div class="dots">
+          <span class="dot active" onclick="posicionSlide(1)"></span>
+          <span class="dot" onclick="posicionSlide(2)"></span>
+          <!--<span class="dot" onclick="posicionSlide(3)"></span>-->
+      </div>
+  </div>
+   <!-- About me -->
+   <div class="container" id="about" style="min-height: 100vh; padding-top: 15rem; padding-bottom: 3rem;">
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/nosotros.avif" alt="">
+          </figure>
+        </div>
+      </div>
+      <div  class="text is-size-7-mobile" style="text-align: justify;">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">HEXA CONNECTION</h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Grandes Resultados</h5>
+        <p class="text is-size-7-mobile">En Hexa connection, somos una firma consultora con el propósito de ofrecer servicios de consultoría estratégica integral, brindando cambios en gestión estratégica y operativa personalizada que impulsan el crecimiento y la eficiencia de nuestros clientes. Contamos con un equipo multidisciplinario de expertos con una amplia trayectoria en el ámbito empresarial, lo que nos permite abordar cada proyecto desde una óptica integral adaptándonos a las necesidades de nuestros usuarios, siendo así la mejor decisión para garantizar grandes resultados</p>
+        <p class="text is-size-7-mobile">
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="section2" class="hero my-hero" style="--banner: url(../img/azul.jpg); --bg-atachment: fixed;">
+    <div class="container-hero">
+
+      <div class="container" id="about" style="min-height: 80vh; padding-top: 5rem; padding-bottom: 3rem;">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+              Objetivos de hexa connection
+            </h1>
+            <h5 class="subtitle is-size-5">
+            </h5>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <img class="about-me-img" src="img/estrategia.png" alt=""></i>
+              </span>
+              <p class="has-text-centered is-size-7-mobile">Establecer estrategias y programas de fidelización para mantener una comunicación constante con los clientes, asegurando relaciones a largo plazo y repetición de negocios.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <img class="about-me-img" src="img/metodologias.png" alt=""></i>
+              </span>
+              <p class="has-text-centered is-size-7-mobile"> Definir metodologías innovadoras que estén a la vanguardia de los desafíos empresariales emergentes y asegurar la competitividad de estas en el tiempo.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <img class="about-me-img" src="img/garantizar.png" alt=""></i>
+              </span>
+              <p class="has-text-centered is-size-7-mobile">Garantizar el impacto de los servicios de consultoría, reflejado en cambios 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mision y Vision-->
+  <div class="container" id="mision y vision" style="min-height: 15vh; padding-top: 0rem; padding-bottom: 3rem;"></div>>
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/misionyvision.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-half section-about-me" style="text-align: justify;" >  
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">MISIóN Y VISIóN </h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Misión</h5>
+        <p class="text is-size-7-mobile" >Proporcionar servicios de Consultoría Empresarial mediante la implementación de intervenciones innovadoras que garanticen la efectividad de los procesos, transformando las aspiraciones de nuestros clientes en grandes resultados, contribuyendo así al desarrollo y mejora continua de sus organizaciones.
+         </p>
+          <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Visión</h5>
+        <p class="text is-size-7-mobile">Ser el socio de confianza de nuestros clientes, brindándoles el apoyo necesario para enfrentar desafíos y aprovechar oportunidades en un entorno empresarial en constante cambio. En la que priorizamos generar un impacto de un antes y un después y posicionarnos como líderes en el mercado empresarial.
+         </p>
+        <p class="text is-size-7-mobile">
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Servicios-->
+  <div class="container" id="servicios" style="min-height: 20vh; padding-top: 0rem; padding-bottom: 3rem;"></div>>
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/servicios.avif" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-half section-about-me">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">SERVICIOS </h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator"></h5>
+        <p class="text is-size-7-mobile">1️⃣ Optimización Financiera y Contable</p>
+        <p class="text is-size-7-mobile">2️⃣ Consultoría en Transformación Digital
+          </p>
+          <p class="text is-size-7-mobile">3️⃣ Estrategia y Crecimiento Empresarial
+          </p>
+        <p class="text is-size-7-mobile">
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Contacto -->
+  <div class="container" id="contacto" style="min-height: 13vh; padding-top: 0rem; padding-bottom: 3rem;"></div>>
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">Contactos de hexa connection</h1>
+        <h5 class="subtitle is-size-6">Somos Tu Mejor Opcion</h5>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="my-footer">
+    <div class="hero my-hero" style="--banner: url(../img/azul.jpg); --bg-atachment: none;">
+      <div class="container-hero">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <span class="has-text-white">
+            </span>
+          </div>
+          <div class="column is-full">
+            <ul class="my-footer-ul">
+              <li class="my-footer-item">
+                <a href="https://www.facebook.com/share/162Mzu5mZv/" class="my-footer-link facebook" target="_blank">
+                  <i class="zmdi zmdi-facebook"></i>
+              </a>              
+              </li>
+              <li class="my-footer-item">
+                <a href="https://www.instagram.com/hexa.2048?igsh=MWJucXFieGQxNzNqbg==" class="my-footer-link instagram" target="_blank">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>                
+              </li>
+              <li class="my-footer-item">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hexaconnection63@gmail.com" class="my-footer-link gmail" target="_blank">
+                  <i class="zmdi zmdi-email"></i>
+              </a>              
+            </ul>
+          </div>
+          <div class="column has-text-centered is-size-7-mobile  is-full">
+            <p class="footer-p has-text-white">© 2025 HEXA CONNECTION. Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>
